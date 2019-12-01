@@ -1,0 +1,45 @@
+.header-container {
+  background: #eee;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  width: 30vw;
+  transition: 0.2s;
+}
+
+.active-button {
+  background: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  outline: none;
+  padding: 5px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+.inactive-button {
+  background: inherit;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 15px;
+  outline: none;
+  padding: 5px;
+  transition: 0.2s;
+  width: 100%;
+}
+
+@media screen and (max-width: 85rem){
+  .header-container{
+    width: 35vw;
+  }
+}
+
+@media screen and (max-width: 45rem){
+  .header-container{
+    width: 80vw;
+  }
+}
